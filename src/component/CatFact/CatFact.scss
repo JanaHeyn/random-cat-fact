@@ -1,0 +1,26 @@
+.CatFact
+{
+    width: 40rem;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    &__text,
+    &__button
+    {
+        font-size: 1.2rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    &__button
+    {
+        width: 15rem;
+        height: 3rem;
+        color: yellow;
+        background-color: purple;
+        border: 4px solid black;
+        border-radius: 10px;
+    }
+}
